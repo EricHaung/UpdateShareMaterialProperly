@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ModelPreview
+public class MaterialReplace
 {
     private enum ModelType
     {
@@ -14,7 +14,7 @@ public class ModelPreview
     private GameObject target;
     private Dictionary<Material, Material> materialMap = new Dictionary<Material, Material>();
 
-    public ModelPreview(GameObject _target)
+    public MaterialReplace(GameObject _target)
     {
         target = _target;
     }
