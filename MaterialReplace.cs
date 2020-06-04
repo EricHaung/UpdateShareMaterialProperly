@@ -35,7 +35,7 @@ public class MaterialReplace
                         Material tempMaterial = null;
 
                         
-                        switch (rrs[i].sharedMaterials[j].color.a) //Put your condition here
+                        switch (rrs[i].sharedMaterials[j].color.a) //Put your condition here 
                         {
                             case 1:
                                 tempMaterial = MaterialFactory(ModelType.Standard);
